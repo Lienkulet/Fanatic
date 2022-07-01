@@ -1,0 +1,186 @@
+.pricing{
+    background-color: #fff;
+
+    justify-content: space-between;
+    .pricing-block{
+        border-radius: 12px;
+        box-shadow: rgb(240,240,240) 0 5px 12px;
+        padding: 30px;
+        // padding-left: 30px;
+        margin-top: 100px;
+        
+
+        .header{
+            display: flex;
+            flex-direction: row;
+            margin-top: 10px;
+            align-items: center;
+            justify-content: space-between;
+         
+                h3{
+                    margin-right: 20px;
+                    font-size: 30px;
+                    color: $--color-primary;
+                    font-weight: 1000;
+            }
+      
+                img{
+                    height: 50px;
+                    
+            }
+ 
+        }
+
+        .sub-heading {
+            margin-top: 40px;
+            margin-bottom: 40px;
+            h3{
+                font-size: 35px;
+                color: $--color-primary;
+                font-weight: 1000;
+            }
+        }
+
+        .offers{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+
+        .offers-image{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-bottom: 20px;
+
+            h5{
+                margin-left: 20px;
+                color: $--color-primary;
+                font-weight: 1000;
+                font-size: 25px;
+            }
+            img{
+                height: 25px;
+                width: 25px;
+            }
+        }
+        }
+
+        .footer{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px;
+            .btn-pricing{
+                width: 120px;
+                height: 50px;
+                color: white;
+                border: none;
+            }
+        }
+}
+}
+
+.contact-us{
+    background-color: $--color-gray;
+
+    .details{
+        display: flex;
+        flex-direction: row;
+
+        .info{
+        margin-top: 40px;
+
+        input{
+            border: none;
+            background-color: transparent;
+            border-bottom: 2px solid $--color-primary;
+            outline: none;
+            color: black;
+            font-weight: 800;
+            font-size: 20px;
+        }
+
+        textarea{
+            border: none;
+            background-color: transparent;
+            border-bottom: 2px solid $--color-primary;
+            outline: none;
+            color: black;
+            font-weight: 800;
+            font-size: 20px;
+        }
+
+        label{
+            margin-top: 10px;
+            color: $--color-primary;
+        }
+
+        .btn-primary{
+            width: 300px;
+            height: 60px;
+            border-radius: 21px;
+            color: #fff;
+            margin-top: 40px;
+        }
+    }
+        .images{
+            display: flex;
+            flex-direction: row;
+            margin-left: 220px;
+
+            .vertical{
+                display: flex;
+                flex-direction: column;
+                margin-right: 30px;
+                margin-top: 40px;
+
+                .first{
+                    margin-bottom: 30px;
+                }
+            }
+
+            .third{
+                margin-top: 150px;
+            }
+            
+        }
+    }
+}
+
+footer{
+    background-color: $--color-primary;
+    padding: 20px;
+
+    .copyright{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 20px;
+
+        .unique{
+            display: flex;
+        flex-direction: row;
+        h6{
+            color: $--color-secondary;
+        }
+
+        p{
+            color: #fff
+        }
+        }
+
+        .btn-footer{
+            background-color: transparent;
+            border: none;
+            color: #fff;
+            width: fit-content;
+
+            &:hover{
+                cursor: pointer;
+                color: $--color-secondary;
+            }
+        }
+        
+    }
+}

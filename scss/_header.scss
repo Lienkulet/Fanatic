@@ -1,0 +1,163 @@
+header {
+  background-color: #fff; 
+  background-size:contain;
+  // min-height: 840px;
+}
+
+.top-bar {
+padding-bottom: 20px;
+  .navbar{
+    background-color: #fff;
+  }
+  .nav-text {
+    color: $--color-primary;
+  }
+
+  .nav-item button, 
+  .nav-item a{
+    color: $--color-primary;
+    font-weight: 600;
+  }
+
+  .nav-item a{
+    &:hover{
+      border-bottom: 3px solid $--color-secondary;
+    }
+  }
+
+  .btn{
+    background-color: $--color-gray;
+    width: fit-content;
+    color: $--color-primary;
+    margin: auto;
+    border: none;
+    &:hover{
+      cursor: pointer;
+      color: $--color-secondary;
+    }
+  }
+  
+.btn-head{
+  background-color: transparent;
+  margin-right: 20px;
+
+  &:hover{
+    cursor: pointer;
+    color: $--color-secondary;
+  }
+}
+
+.navbar-brand,
+.nav-text{  
+  &:hover{
+    cursor: pointer;
+    color: $--color-secondary;
+  }
+}
+
+}
+
+.digital {
+
+  .digital-block{
+    margin-top: 150px;
+  }
+
+  .digital-block h1 {
+    color: $--color-primary;
+    font-size: 70px;
+    font-weight: 1000;
+    padding-bottom: 5px;
+    margin-top: 300px;
+  }
+
+  p {
+    margin: 10px 0 10px 0;
+  }
+
+  .btn{
+    width: 180px;
+    position: absolute;
+    border: none;
+    margin-top: 20px;
+  }
+
+  img{
+    // display: block;
+    // position: absolute;
+    // height: 600px;
+    //  right: 40px;
+    // bottom: 400px;
+    margin-top: 10px;
+    margin-left: 300px;
+  }
+
+  .friends{
+    background-color: $--color-primary;
+    display: flex;
+    flex-direction: column;
+    margin-top: -250px;
+    margin-left: 120px;
+    width: 350px;
+
+
+    p{
+      color: #fff;
+      text-align: start;
+      word-spacing: normal;
+      // line-height: 10px;
+      font-size: 18px; 
+      margin-top: 40px;
+      margin-right: 10px;
+      margin-left: 25px;
+    }
+
+    h6{
+      color: $--color-yellow;
+      text-align: end;
+      margin-bottom: 50px;
+      margin-right: 20px;
+    }
+  }
+
+  .semi-friends{
+    display: flex;
+    flex-direction: column;
+
+  }
+  
+  .banner-secondary img{
+    border-radius: 12px;
+  }
+
+  .banner{
+    width: fit-content;
+        position: absolute;
+        left: -250;
+        right: 0;
+        top: 480px;
+        z-index: 1;
+        margin: auto;
+
+        img{
+          height: 100px;
+          color: $--color-secondary;
+      }
+  }
+
+  .images{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .dots{
+    width: fit-content;
+    position: absolute;
+    left: 0;
+    right: -1070px;
+    top: 480px;
+    z-index: 1;
+    margin: auto;
+  }
+}
+

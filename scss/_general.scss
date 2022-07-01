@@ -1,0 +1,99 @@
+html{
+    scroll-behavior: smooth;
+}
+
+section{
+    padding: 60px 0;
+}
+
+.btn-primary{
+    background-color: $--color-secondary;
+
+        &:hover {
+            background-color: $--color-darkPrimary;
+            // opacity: 0.3 !important;
+            transition: 0.2s;
+            cursor: pointer;
+        }
+}
+
+.btn-secondary{
+    background-color: $--color-lightBlue;
+    // width: fit-content;
+    color: $--color-primary;
+    text-decoration-color: $--color-darkPrimary;
+    border: none;
+    border-radius: 12px;
+    font-weight: 800;
+    width: min-content;
+}
+
+.btn-gray{
+    background-color: inherit;
+    width: 181px;
+    height: 57px;
+    margin-right: 20px;
+    border-radius: 12px;
+
+    &:hover {
+        border-color: $--color-secondary;
+        color: $--color-secondary;
+        // opacity: 0.3 !important;
+        transition: 0.2s;
+        cursor: pointer;
+    }
+}
+
+.btn{
+    border: none;
+    width: 181px;
+    height: 57px;
+    margin-right: 20px;
+    border-radius: 12px;
+
+    
+}
+
+.heading{
+    h1{
+        font-size: 50px;
+        font-weight: 800;
+        color: $--color-primary;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+    
+    p{
+        font-size: 14px;
+    }
+}
+
+.creativity-block{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    h1{
+        font-size: 50px;
+        font-weight: 1000;
+        color: $--color-primary;
+    }
+    
+    h6{
+        color: $--color-primary;
+        font-size: 20px;
+    }
+}
+
+.right{
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.round{
+    border-radius: 12px;
+}
+
+.offerss{
+    h5{
+        font-size: 20px;
+    }
+}
